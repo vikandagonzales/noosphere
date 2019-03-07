@@ -1,5 +1,5 @@
 .navbar {
-  padding: 0 2rem;
+  padding: 0 $navbar-padding-horizontal;
 
   .navbar-item:not(.has-dropdown) {
     padding: .5rem 1rem;
