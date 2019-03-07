@@ -1,6 +1,18 @@
 .navbar {
   padding: 0 2rem;
 
+  .navbar-item:not(.has-dropdown) {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-item .navbar-link:not(.is-arrowless) {
+    padding: .5rem 2.5rem .5rem 1rem;
+  }
+
+  .lnr {
+    margin-right: .5rem;
+  }
+
   .profile {
     height: $navbar-item-img-max-height;
     margin-right: .6rem;

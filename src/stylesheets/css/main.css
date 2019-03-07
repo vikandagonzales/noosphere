@@ -7749,6 +7749,12 @@ img {
 
 .navbar {
   padding: 0 2rem; }
+  .navbar .navbar-item:not(.has-dropdown) {
+    padding: .5rem 1rem; }
+  .navbar .navbar-item .navbar-link:not(.is-arrowless) {
+    padding: .5rem 2.5rem .5rem 1rem; }
+  .navbar .lnr {
+    margin-right: .5rem; }
   .navbar .profile {
     height: 2rem;
     margin-right: .6rem;

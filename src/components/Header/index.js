@@ -34,13 +34,11 @@ class Header extends React.Component {
         </div>
         <div className="navbar-menu" id="navMenu">
           <div className="navbar-start">
-            <NavLink className="navbar-item" activeClassName="is-active" to="/characters">Characters</NavLink>
-            <NavLink className="navbar-item" activeClassName="is-active" to="/campaigns">Campaigns</NavLink>
-            <NavLink className="navbar-item" activeClassName="is-active" to="/compendium">Compendium</NavLink>
+            <NavLink className="navbar-item" activeClassName="is-active" to="/characters"><span className="lnr lnr-group-work"></span>Characters</NavLink>
+            <NavLink className="navbar-item" activeClassName="is-active" to="/campaigns"><span className="lnr lnr-bookmark"></span>Campaigns</NavLink>
+            <NavLink className="navbar-item" activeClassName="is-active" to="/compendium"><span className="lnr lnr-library"></span>Compendium</NavLink>
             <div className="navbar-item has-dropdown is-hoverable">
-              <span className="navbar-link is-hidden-touch">
-                Tools
-                </span>
+              <span className="navbar-link is-hidden-touch"><span className="lnr lnr-cog"></span>Tools</span>
               <div className="navbar-dropdown">
                 <Link className="navbar-item" to="/character-builder">Character Builder</Link>
                 <Link className="navbar-item" to="/arena">Arena</Link>
