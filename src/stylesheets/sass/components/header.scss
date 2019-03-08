@@ -1,9 +1,15 @@
 nav {
-  padding: 0 3rem;
+  padding: 0 2rem;
 
   .profile {
+    height: $navbar-item-img-max-height;
     margin-right: .6rem;
     width: $navbar-item-img-max-height;
-    height: $navbar-item-img-max-height;
   }
+}
+
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }

@@ -6924,7 +6924,7 @@ label.panel-block {
 
 .footer {
   background-color: #fafafa;
-  padding: 3rem 1.5rem 6rem; }
+  padding: 3rem 2rem 3rem; }
 
 .is-checkradio[type="radio"],
 .is-checkradio[type="checkbox"] {
@@ -7703,12 +7703,12 @@ body {
   padding-top: 3.5rem; }
 
 .columns.is-fullheight {
-  min-height: calc(100vh - 3.5rem);
-  max-height: calc(100vh - 3.5rem);
-  height: calc(100vh - 3.5rem);
   display: flex;
   flex-direction: row;
-  justify-content: stretch; }
+  height: calc(100vh - 3.5rem);
+  justify-content: stretch;
+  max-height: calc(100vh - 3.5rem);
+  min-height: calc(100vh - 3.5rem); }
   .columns.is-fullheight .column {
     overflow-y: auto; }
 
@@ -7732,19 +7732,24 @@ img {
   object-fit: cover; }
 
 .profile {
+  align-items: center;
   background-color: #bbc3dd;
+  border-radius: 50%;
   color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%; }
+  justify-content: center; }
   .profile img {
-    height: 100%;
-    border-radius: 50%; }
+    border-radius: 50%;
+    height: 100%; }
 
 nav {
-  padding: 0 3rem; }
+  padding: 0 2rem; }
   nav .profile {
+    height: 2rem;
     margin-right: .6rem;
-    width: 2rem;
-    height: 2rem; }
+    width: 2rem; }
+
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%; }

@@ -4,15 +4,15 @@ img {
 }
 
 .profile {
+  align-items: center;
   background-color: $periwinkle;
+  border-radius: 50%;
   color: $white;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-
+  
   img {
-    height: 100%;
     border-radius: 50%;
+    height: 100%; 
   }
 }

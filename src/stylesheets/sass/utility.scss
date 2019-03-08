@@ -15,8 +15,8 @@
 }
 
 @mixin vertical-align-center {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .has-padding-top {
