@@ -1,4 +1,4 @@
-nav {
+.navbar {
   padding: 0 2rem;
 
   .profile {
@@ -6,10 +6,4 @@ nav {
     margin-right: .6rem;
     width: $navbar-item-img-max-height;
   }
-}
-
-.footer {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
 }
