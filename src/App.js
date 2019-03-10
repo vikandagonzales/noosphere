@@ -1,25 +1,48 @@
-import React, { Component } from 'react';
+// REACT
+import React from 'react';
 
-class App extends Component {
-  render() {
+// ROUTER
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+
+// REDUX
+import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
+// import {getUser} from './state/actions/auth';
+
+// COMPONENTS
+// import Header from './components/Header';
+// import Main from './components/Main';
+// import Invitation from './components/Invitation';
+
+// ==========
+
+class App extends React.Component {
+  componentDidMount () {
+    // this.props.getUser();
+  };
+
+  render () {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter>
+        <div>
+          {/* <Header />
+          <Switch>
+            {this.props.authorized ? <Route path="/invitation" component={Invitation} /> : null}
+            <Route path="/" component={Main} />
+          </Switch> */}
+        </div>
+      </BrowserRouter>
     );
-  }
-}
+  };
+};
 
-export default App;
+const mapStateToProps = state => ({
+  // user: state.auth.user,
+  // authorized: state.auth.authorized
+});
+
+const mapDispatchToProps = dispatch => bindActionCreators({
+  // getUser
+}, dispatch);
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
