@@ -10,7 +10,7 @@ import {connect} from 'react-redux';
 // import {getUser} from './state/actions/auth';
 
 // COMPONENTS
-// import Header from './components/Header';
+import Header from './components/Header';
 // import Main from './components/Main';
 // import Invitation from './components/Invitation';
 
@@ -19,14 +19,15 @@ import {connect} from 'react-redux';
 class App extends React.Component {
   componentDidMount () {
     // this.props.getUser();
+    console.log('hello');
   };
 
   render () {
     return (
       <BrowserRouter>
         <div>
-          {/* <Header />
-          <Switch>
+          <Header />
+          {/* <Switch>
             {this.props.authorized ? <Route path="/invitation" component={Invitation} /> : null}
             <Route path="/" component={Main} />
           </Switch> */}

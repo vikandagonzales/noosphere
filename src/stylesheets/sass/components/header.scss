@@ -1,0 +1,41 @@
+nav {
+  border-bottom: solid 2px transparentize($mist, .7);
+
+  .navbar-end {
+    padding-right: 1rem;
+  }
+
+  .navbar-item, .navbar-link, .navbar-dropdown .navbar-item {
+    letter-spacing: 1px;
+
+    &:hover {
+      background-color: lighten($light, 2%);
+      color: $quartz;
+    }
+
+    .navbar-dropdown {
+      box-shadow: none;
+      border: solid 1px transparentize($mist, .7)
+    }
+  }
+
+  .navbar-item, .navbar-dropdown .navbar-link {
+    margin: 0 .5rem;
+  }
+
+  .navbar-main .navbar-item {
+    height: 2.5rem;
+    margin: 0 .5rem;
+
+    &.is-active {
+      background-color: $periwinkle;
+      color: $white;
+    }
+  }
+
+  .profile {
+    margin-right: .6rem;
+    width: $navbar-item-img-max-height;
+    height: $navbar-item-img-max-height;
+  }
+}
