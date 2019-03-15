@@ -1,7 +1,27 @@
 {
   "name": "noosphere",
   "version": "0.1.0",
-  "private": true,
+  "description": "",
+  "main": "./public/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikandagonzales/noosphere.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass",
+    "javascript",
+    "react",
+    "redux",
+    "axios"
+  ],
+  "author": "Vikanda Gonzales <vikanda.gonzales@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikandagonzales/noosphere/issues"
+  },
+  "homepage": "https://github.com/vikandagonzales/noosphere.git",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
