@@ -25,6 +25,8 @@
   "dependencies": {
     "autoprefixer": "^9.5.0",
     "axios": "^0.18.0",
+    "bulma": "^0.7.4",
+    "bulma-extensions": "^6.2.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
