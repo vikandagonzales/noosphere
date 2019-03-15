@@ -24,6 +24,7 @@
   "homepage": "https://github.com/vikandagonzales/noosphere.git",
   "dependencies": {
     "autoprefixer": "^9.5.0",
+    "axios": "^0.18.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
