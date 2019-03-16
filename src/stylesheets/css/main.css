@@ -7753,6 +7753,8 @@ img {
   bottom: 0;
   position: absolute;
   width: 100%; }
+  .footer p {
+    font-size: .9rem; }
 
 .navbar {
   padding: 0 2rem; }
