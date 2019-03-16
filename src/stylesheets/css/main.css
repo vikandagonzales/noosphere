@@ -142,7 +142,7 @@
   -webkit-appearance: none;
   align-items: center;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 4px;
   box-shadow: none;
   display: inline-flex;
   font-size: 1rem;
@@ -3165,21 +3165,21 @@ a.box:active {
   padding: 0;
   width: 100%; }
   .progress::-webkit-progress-bar {
-    background-color: #e2e4f0; }
+    background-color: #dbdbdb; }
   .progress::-webkit-progress-value {
-    background-color: #bbc3dd; }
+    background-color: #4a4a4a; }
   .progress::-moz-progress-bar {
-    background-color: #bbc3dd; }
+    background-color: #4a4a4a; }
   .progress::-ms-fill {
-    background-color: #bbc3dd;
+    background-color: #4a4a4a;
     border: none; }
   .progress:indeterminate {
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-name: moveIndeterminate;
     animation-timing-function: linear;
-    background-color: #e2e4f0;
-    background-image: linear-gradient(to right, #4a4a4a 30%, #e2e4f0 30%);
+    background-color: #dbdbdb;
+    background-image: linear-gradient(to right, #4a4a4a 30%, #dbdbdb 30%);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 150% 150%; }
@@ -3194,7 +3194,7 @@ a.box:active {
   .progress.is-white::-ms-fill {
     background-color: white; }
   .progress.is-white:indeterminate {
-    background-image: linear-gradient(to right, white 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, white 30%, #dbdbdb 30%); }
   .progress.is-black::-webkit-progress-value {
     background-color: #0a0a0a; }
   .progress.is-black::-moz-progress-bar {
@@ -3202,7 +3202,7 @@ a.box:active {
   .progress.is-black::-ms-fill {
     background-color: #0a0a0a; }
   .progress.is-black:indeterminate {
-    background-image: linear-gradient(to right, #0a0a0a 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, #0a0a0a 30%, #dbdbdb 30%); }
   .progress.is-light::-webkit-progress-value {
     background-color: whitesmoke; }
   .progress.is-light::-moz-progress-bar {
@@ -3210,7 +3210,7 @@ a.box:active {
   .progress.is-light::-ms-fill {
     background-color: whitesmoke; }
   .progress.is-light:indeterminate {
-    background-image: linear-gradient(to right, whitesmoke 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, whitesmoke 30%, #dbdbdb 30%); }
   .progress.is-dark::-webkit-progress-value {
     background-color: #363636; }
   .progress.is-dark::-moz-progress-bar {
@@ -3218,7 +3218,7 @@ a.box:active {
   .progress.is-dark::-ms-fill {
     background-color: #363636; }
   .progress.is-dark:indeterminate {
-    background-image: linear-gradient(to right, #363636 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, #363636 30%, #dbdbdb 30%); }
   .progress.is-primary::-webkit-progress-value {
     background-color: #ce3d40; }
   .progress.is-primary::-moz-progress-bar {
@@ -3226,7 +3226,7 @@ a.box:active {
   .progress.is-primary::-ms-fill {
     background-color: #ce3d40; }
   .progress.is-primary:indeterminate {
-    background-image: linear-gradient(to right, #ce3d40 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, #ce3d40 30%, #dbdbdb 30%); }
   .progress.is-link::-webkit-progress-value {
     background-color: #ce3d40; }
   .progress.is-link::-moz-progress-bar {
@@ -3234,7 +3234,7 @@ a.box:active {
   .progress.is-link::-ms-fill {
     background-color: #ce3d40; }
   .progress.is-link:indeterminate {
-    background-image: linear-gradient(to right, #ce3d40 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, #ce3d40 30%, #dbdbdb 30%); }
   .progress.is-info::-webkit-progress-value {
     background-color: #209cee; }
   .progress.is-info::-moz-progress-bar {
@@ -3242,7 +3242,7 @@ a.box:active {
   .progress.is-info::-ms-fill {
     background-color: #209cee; }
   .progress.is-info:indeterminate {
-    background-image: linear-gradient(to right, #209cee 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, #209cee 30%, #dbdbdb 30%); }
   .progress.is-success::-webkit-progress-value {
     background-color: #83bf8a; }
   .progress.is-success::-moz-progress-bar {
@@ -3250,7 +3250,7 @@ a.box:active {
   .progress.is-success::-ms-fill {
     background-color: #83bf8a; }
   .progress.is-success:indeterminate {
-    background-image: linear-gradient(to right, #83bf8a 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, #83bf8a 30%, #dbdbdb 30%); }
   .progress.is-warning::-webkit-progress-value {
     background-color: #ebcd6f; }
   .progress.is-warning::-moz-progress-bar {
@@ -3258,7 +3258,7 @@ a.box:active {
   .progress.is-warning::-ms-fill {
     background-color: #ebcd6f; }
   .progress.is-warning:indeterminate {
-    background-image: linear-gradient(to right, #ebcd6f 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, #ebcd6f 30%, #dbdbdb 30%); }
   .progress.is-danger::-webkit-progress-value {
     background-color: #ce3d40; }
   .progress.is-danger::-moz-progress-bar {
@@ -3266,7 +3266,7 @@ a.box:active {
   .progress.is-danger::-ms-fill {
     background-color: #ce3d40; }
   .progress.is-danger:indeterminate {
-    background-image: linear-gradient(to right, #ce3d40 30%, #e2e4f0 30%); }
+    background-image: linear-gradient(to right, #ce3d40 30%, #dbdbdb 30%); }
   .progress.is-small {
     height: 0.75rem; }
   .progress.is-medium {
@@ -3701,7 +3701,7 @@ a.tag:hover {
 
 .card {
   background-color: white;
-  box-shadow: none;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #4a4a4a;
   max-width: 100%;
   position: relative; }
@@ -7712,6 +7712,9 @@ body {
   .columns.is-fullheight .column {
     overflow-y: auto; }
 
+.hero.is-fullheight {
+  min-height: calc(100vh - 3.5rem); }
+
 .navbar-link:not(.is-arrowless)::after,
 .select:not(.is-multiple):not(.is-loading)::after {
   height: .5rem;
@@ -7750,10 +7753,9 @@ img {
     height: 100%; }
 
 .footer {
-  bottom: 0;
-  position: absolute;
-  width: 100%; }
+  background-color: #ce3d40; }
   .footer p {
+    color: whitesmoke;
     font-size: .9rem; }
 
 .navbar {
@@ -7768,3 +7770,29 @@ img {
     height: 2rem;
     margin-right: .6rem;
     width: 2rem; }
+
+#character-builder .header {
+  margin: 1rem auto; }
+
+#character-builder progress {
+  margin: auto;
+  max-width: 425px; }
+
+#character-builder .buttons {
+  margin: 2rem auto; }
+
+#character-builder .cards {
+  flex-wrap: wrap;
+  margin: 3rem auto; }
+
+#character-builder .card {
+  transition: all 300ms ease; }
+  #character-builder .card:hover {
+    transform: scale(1.02); }
+
+#character-builder .card-content p {
+  margin-bottom: 0; }
+
+#character-builder .card-content .lnr {
+  color: #e8a3a4;
+  margin-right: 1rem; }

@@ -21,6 +21,10 @@ body {
   }
 }
 
+.hero.is-fullheight {
+  min-height: calc(100vh - #{$navbar-height});
+}
+
 .navbar-link:not(.is-arrowless)::after,
 .select:not(.is-multiple):not(.is-loading)::after {
   height: .5rem;

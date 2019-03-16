@@ -13,6 +13,9 @@ import {connect} from 'react-redux';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+// CONTAINERS
+import CharacterBuilder from './containers/CharacterBuilder';
+
 // ==========
 
 class App extends React.Component {
@@ -26,10 +29,11 @@ class App extends React.Component {
       <BrowserRouter>
         <div>
           <Header />
-          {/* <Switch>
-            {this.props.authorized ? <Route path="/invitation" component={Invitation} /> : null}
-            <Route path="/" component={Main} />
-          </Switch> */}
+          <Switch>
+            <Route path="/character-builder" component={CharacterBuilder} />
+            {/* {this.props.authorized ? <Route path="/invitation" component={Invitation} /> : null}
+            <Route path="/" component={Main} /> */}
+          </Switch>
           <Footer />
         </div>
       </BrowserRouter>
