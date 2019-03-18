@@ -16,32 +16,24 @@ class CharacterBuilder extends React.Component {
             </div>
 
             <div className="buttons is-centered">
-              <div className="field has-addons">
-                <p className="control">
-                  <span className="button is-static">
-                    <span className="icon is-small">
-                      <i className="fas fa-save"></i>
-                    </span>
-                    <span>Save Character</span>
-                  </span>
-                </p>
-                <p className="control">
-                  <span className="button is-static">
-                    <span className="icon is-small">
-                      <i className="fas fa-download"></i>
-                    </span>
-                    <span>Export PDF</span>
-                  </span>
-                </p>
-                <p className="control">
-                  <span className="button is-primary">
-                    <span className="icon is-small">
-                      <i className="fas fa-file"></i>
-                    </span>
-                    <span>Start Over</span>
-                  </span>
-                </p>
-              </div>
+              <span className="button is-static">
+                <span className="icon is-small">
+                  <i className="fas fa-save"></i>
+                </span>
+                <span>Save Character</span>
+              </span>
+              <span className="button is-static">
+                <span className="icon is-small">
+                  <i className="fas fa-download"></i>
+                </span>
+                <span>Export PDF</span>
+              </span>
+              <span className="button is-primary">
+                <span className="icon is-small">
+                  <i className="fas fa-file"></i>
+                </span>
+                <span>Start Over</span>
+              </span>
             </div>
 
             <div className="cards columns">
